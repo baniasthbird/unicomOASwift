@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2C703CE01CDB98E900C7EF77 /* LoginView.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C703CDF1CDB98E900C7EF77 /* LoginView.png */; };
+		2C703CE41CDDC85B00C7EF77 /* server.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C703CE31CDDC85B00C7EF77 /* server.png */; };
+		2C703CE61CDE2F1900C7EF77 /* FindPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C703CE51CDE2F1900C7EF77 /* FindPasswordViewController.swift */; };
+		2C703CE81CDE352900C7EF77 /* FindPwd2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C703CE71CDE352900C7EF77 /* FindPwd2ViewController.swift */; };
+		2C703CEA1CDE35B500C7EF77 /* FindPwd3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C703CE91CDE35B500C7EF77 /* FindPwd3ViewController.swift */; };
 		2CDB75621CB3DB84008F648F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDB75611CB3DB84008F648F /* AppDelegate.swift */; };
 		2CDB75641CB3DB84008F648F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDB75631CB3DB84008F648F /* ViewController.swift */; };
 		2CDB75671CB3DB84008F648F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CDB75651CB3DB84008F648F /* Main.storyboard */; };
@@ -42,6 +46,10 @@
 		2C703CDF1CDB98E900C7EF77 /* LoginView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LoginView.png; path = Image/LoginView.png; sourceTree = "<group>"; };
 		2C703CE11CDC0C1500C7EF77 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		2C703CE21CDC0C1500C7EF77 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		2C703CE31CDDC85B00C7EF77 /* server.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = server.png; path = Image/server.png; sourceTree = "<group>"; };
+		2C703CE51CDE2F1900C7EF77 /* FindPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FindPasswordViewController.swift; path = MainBoard/FindPasswordViewController.swift; sourceTree = "<group>"; };
+		2C703CE71CDE352900C7EF77 /* FindPwd2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FindPwd2ViewController.swift; path = MainBoard/FindPwd2ViewController.swift; sourceTree = "<group>"; };
+		2C703CE91CDE35B500C7EF77 /* FindPwd3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FindPwd3ViewController.swift; path = MainBoard/FindPwd3ViewController.swift; sourceTree = "<group>"; };
 		2CDB755E1CB3DB84008F648F /* unicomOASwfit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = unicomOASwfit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDB75611CB3DB84008F648F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CDB75631CB3DB84008F648F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +124,9 @@
 				2CDB75611CB3DB84008F648F /* AppDelegate.swift */,
 				2CDB75631CB3DB84008F648F /* ViewController.swift */,
 				2CDB75651CB3DB84008F648F /* Main.storyboard */,
+				2C703CE91CDE35B500C7EF77 /* FindPwd3ViewController.swift */,
+				2C703CE71CDE352900C7EF77 /* FindPwd2ViewController.swift */,
+				2C703CE51CDE2F1900C7EF77 /* FindPasswordViewController.swift */,
 				2CDB75681CB3DB84008F648F /* Assets.xcassets */,
 				2CDB756A1CB3DB84008F648F /* LaunchScreen.storyboard */,
 				2CDB756D1CB3DB84008F648F /* Info.plist */,
@@ -144,6 +155,7 @@
 		2CE320E71CB3F41200B36793 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				2C703CE31CDDC85B00C7EF77 /* server.png */,
 				2C703CDF1CDB98E900C7EF77 /* LoginView.png */,
 				2CE320E81CB3F55E00B36793 /* Logo.png */,
 				2CE320EA1CB3FECF00B36793 /* options.png */,
@@ -281,6 +293,7 @@
 				2CE320EB1CB3FECF00B36793 /* options.png in Resources */,
 				2CDB75691CB3DB84008F648F /* Assets.xcassets in Resources */,
 				2CDB75671CB3DB84008F648F /* Main.storyboard in Resources */,
+				2C703CE41CDDC85B00C7EF77 /* server.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +366,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C703CE81CDE352900C7EF77 /* FindPwd2ViewController.swift in Sources */,
+				2C703CEA1CDE35B500C7EF77 /* FindPwd3ViewController.swift in Sources */,
 				2CDB75641CB3DB84008F648F /* ViewController.swift in Sources */,
+				2C703CE61CDE2F1900C7EF77 /* FindPasswordViewController.swift in Sources */,
 				2CDB75621CB3DB84008F648F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
