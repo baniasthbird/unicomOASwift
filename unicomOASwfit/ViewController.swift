@@ -10,14 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var btn_Login: UIButton!
-    
-    
-    @IBOutlet weak var btn_forgetPassword: UIButton!
-    
-    
-    @IBOutlet weak var btn_ServerIP: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
