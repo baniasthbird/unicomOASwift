@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var btn_server: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
         // Do any additional setup after loading the view, typically from a nib.
         let background=UIImage.init(named: "LoginView.png")
         let bgImageView=UIImageView.init(image: background)
