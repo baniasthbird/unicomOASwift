@@ -18,14 +18,16 @@
 		2CDB756C1CB3DB84008F648F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CDB756A1CB3DB84008F648F /* LaunchScreen.storyboard */; };
 		2CDB75771CB3DB84008F648F /* unicomOASwfitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDB75761CB3DB84008F648F /* unicomOASwfitTests.swift */; };
 		2CDB75821CB3DB84008F648F /* unicomOASwfitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDB75811CB3DB84008F648F /* unicomOASwfitUITests.swift */; };
+		2CE098B71D099A6D00B20455 /* LogoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE098B51D099A6D00B20455 /* LogoCell.swift */; };
+		2CE098B81D099A6D00B20455 /* LogoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CE098B61D099A6D00B20455 /* LogoCell.xib */; };
+		2CE098BB1D099A8400B20455 /* QuitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE098B91D099A8400B20455 /* QuitCell.swift */; };
+		2CE098BC1D099A8400B20455 /* QuitCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CE098BA1D099A8400B20455 /* QuitCell.xib */; };
 		68615A791CFFDC4600A66FB7 /* GlobeViarble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68615A781CFFDC4600A66FB7 /* GlobeViarble.swift */; };
-		68615A7C1D00140A00A66FB7 /* LogoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68615A7B1D00140A00A66FB7 /* LogoCell.swift */; };
 		68615A7E1D00191F00A66FB7 /* SettingVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68615A7D1D00191F00A66FB7 /* SettingVc.swift */; };
 		68615A831D0028BB00A66FB7 /* headLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 68615A7F1D0028BB00A66FB7 /* headLogo.png */; };
 		68615A841D0028BB00A66FB7 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 68615A801D0028BB00A66FB7 /* Logo.png */; };
 		68615A851D0028BB00A66FB7 /* logoimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 68615A811D0028BB00A66FB7 /* logoimage.png */; };
 		68615A861D0028BB00A66FB7 /* options.png in Resources */ = {isa = PBXBuildFile; fileRef = 68615A821D0028BB00A66FB7 /* options.png */; };
-		68615A881D00382800A66FB7 /* QuitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68615A871D00382800A66FB7 /* QuitCell.swift */; };
 		8E6478D3CFA9201D1D8C0D4D /* Pods_unicomOASwfit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33563D5E43B80D3B37FCC4BA /* Pods_unicomOASwfit.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,15 +69,17 @@
 		2CDB757D1CB3DB84008F648F /* unicomOASwfitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unicomOASwfitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDB75811CB3DB84008F648F /* unicomOASwfitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unicomOASwfitUITests.swift; sourceTree = "<group>"; };
 		2CDB75831CB3DB84008F648F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CE098B51D099A6D00B20455 /* LogoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogoCell.swift; path = SettingView/LogoCell.swift; sourceTree = "<group>"; };
+		2CE098B61D099A6D00B20455 /* LogoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LogoCell.xib; path = SettingView/LogoCell.xib; sourceTree = "<group>"; };
+		2CE098B91D099A8400B20455 /* QuitCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuitCell.swift; path = SettingView/QuitCell.swift; sourceTree = "<group>"; };
+		2CE098BA1D099A8400B20455 /* QuitCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = QuitCell.xib; path = SettingView/QuitCell.xib; sourceTree = "<group>"; };
 		33563D5E43B80D3B37FCC4BA /* Pods_unicomOASwfit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unicomOASwfit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68615A781CFFDC4600A66FB7 /* GlobeViarble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobeViarble.swift; sourceTree = "<group>"; };
-		68615A7B1D00140A00A66FB7 /* LogoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogoCell.swift; path = SettingView/LogoCell.swift; sourceTree = "<group>"; };
 		68615A7D1D00191F00A66FB7 /* SettingVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingVc.swift; path = View/SettingVc.swift; sourceTree = "<group>"; };
 		68615A7F1D0028BB00A66FB7 /* headLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = headLogo.png; path = Image/headLogo.png; sourceTree = "<group>"; };
 		68615A801D0028BB00A66FB7 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo.png; path = Image/Logo.png; sourceTree = "<group>"; };
 		68615A811D0028BB00A66FB7 /* logoimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoimage.png; path = Image/logoimage.png; sourceTree = "<group>"; };
 		68615A821D0028BB00A66FB7 /* options.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = options.png; path = Image/options.png; sourceTree = "<group>"; };
-		68615A871D00382800A66FB7 /* QuitCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuitCell.swift; path = SettingView/QuitCell.swift; sourceTree = "<group>"; };
 		BDA8A032E76BB189CE945312 /* Pods-unicomOASwfit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unicomOASwfit.release.xcconfig"; path = "Pods/Target Support Files/Pods-unicomOASwfit/Pods-unicomOASwfit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -197,8 +201,10 @@
 		68615A7A1D00136300A66FB7 /* SettingView */ = {
 			isa = PBXGroup;
 			children = (
-				68615A7B1D00140A00A66FB7 /* LogoCell.swift */,
-				68615A871D00382800A66FB7 /* QuitCell.swift */,
+				2CE098B51D099A6D00B20455 /* LogoCell.swift */,
+				2CE098B61D099A6D00B20455 /* LogoCell.xib */,
+				2CE098B91D099A8400B20455 /* QuitCell.swift */,
+				2CE098BA1D099A8400B20455 /* QuitCell.xib */,
 			);
 			name = SettingView;
 			sourceTree = "<group>";
@@ -318,7 +324,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CE098BC1D099A8400B20455 /* QuitCell.xib in Resources */,
 				68615A841D0028BB00A66FB7 /* Logo.png in Resources */,
+				2CE098B81D099A6D00B20455 /* LogoCell.xib in Resources */,
 				2CDB756C1CB3DB84008F648F /* LaunchScreen.storyboard in Resources */,
 				68615A861D0028BB00A66FB7 /* options.png in Resources */,
 				2C703CE01CDB98E900C7EF77 /* LoginView.png in Resources */,
@@ -398,11 +406,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68615A881D00382800A66FB7 /* QuitCell.swift in Sources */,
+				2CE098BB1D099A8400B20455 /* QuitCell.swift in Sources */,
 				2C703CE81CDE352900C7EF77 /* FindPwd2ViewController.swift in Sources */,
 				68615A7E1D00191F00A66FB7 /* SettingVc.swift in Sources */,
+				2CE098B71D099A6D00B20455 /* LogoCell.swift in Sources */,
 				2C703CEA1CDE35B500C7EF77 /* FindPwd3ViewController.swift in Sources */,
-				68615A7C1D00140A00A66FB7 /* LogoCell.swift in Sources */,
 				68615A791CFFDC4600A66FB7 /* GlobeViarble.swift in Sources */,
 				2CDB75641CB3DB84008F648F /* ViewController.swift in Sources */,
 				2C703CE61CDE2F1900C7EF77 /* FindPasswordViewController.swift in Sources */,

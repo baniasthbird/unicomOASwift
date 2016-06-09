@@ -14,7 +14,10 @@ class SettingVc: UIViewController,UITableViewDelegate,UITableViewDataSource {
     @IBOutlet weak var tableview: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        tableview.registerNib(UINib(nibName:"LogoCell",bundle: nil), forCellReuseIdentifier: "LogoCell")
+        tableview.registerClass(LogoCell.self, forCellReuseIdentifier: "Logocell")
+        tableview.registerNib(UINib(nibName: "QuitCell",bundle: nil), forCellReuseIdentifier: "QuitCell")
+        tableview.registerClass(QuitCell.self, forCellReuseIdentifier: "QuitCell")
         tableview.delegate=self
         tableview.dataSource=self
     }
@@ -61,7 +64,11 @@ class SettingVc: UIViewController,UITableViewDelegate,UITableViewDataSource {
         }
         
         if (indexPath.section == 0) {
-            let logocell:LogoCell=LogoCell(style:  UITableViewCellStyle.Value1, reuseIdentifier: identifier)
+            let logocell:LogoCell=tableView.dequeueReusableCellWithIdentifier("LogoCell", forIndexPath: indexPath) as! LogoCell
+            //logocell.bgView.image=UIImage.init(named: "logoimage.png")
+            logocell.backgroundView=UIImageView.init(image: UIImage.init(named: "logoimage.png"))
+            logocell.lbl_name.text="张三"
+            logocell.logoView.image=UIImage.init(named: "headLogo.png")
             return logocell
         }
         else if (indexPath.section==1) {
@@ -74,7 +81,7 @@ class SettingVc: UIViewController,UITableViewDelegate,UITableViewDataSource {
             return cell!
         }
         else {
-            let quitCell:QuitCell=QuitCell(style:  UITableViewCellStyle.Value1, reuseIdentifier: identifier)
+            let quitCell:QuitCell=tableView.dequeueReusableCellWithIdentifier("QuitCell", forIndexPath: indexPath) as! QuitCell
             return quitCell
         }
         
